@@ -7,7 +7,7 @@ The ORTipy - Operation Research Toolkit in Python Library is a collection of fun
 You can easily install ORTipy using `pip`. Open your terminal or command prompt and run the following command:
 
 ```bash
-pip install ORTipy
+pip install ORTipy2
 ```
 
 This will download and install the latest version of ORTipy from the Python Package Index (PyPI). Make sure you have Python and pip installed on your system.
