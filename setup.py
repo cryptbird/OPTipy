@@ -12,6 +12,6 @@ setup(
     author='twofoldtwins',
     author_email='twofoldtwinsinc@gmail.com',
     description='Operation Research Toolkit in Python',
-    url='https://github.com/cryptbird/OPTipy',
+    url='https://github.com/cryptbird/ORTipy',
     license='Apache License 2.0',
 )
