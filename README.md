@@ -26,7 +26,7 @@ The `graphical_lpp` function allows you to solve a 2-variable linear programming
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-from ORTipy import graphical_lpp
+from ORTipy2 import graphical_lpp
 
 # Objective function: Z = c1*x + c2*y
 objective_coefficients = [3, 2]
@@ -46,7 +46,7 @@ The `simplex_lpp` function is used to solve linear programming problems using th
 **Usage Example:**
 
 ```python
-from ORTipy import simplex_lpp
+from ORTipy2 import simplex_lpp
 
 # Objective function coefficients: Z = 3x + 2y
 c = np.array([3, 2])
@@ -68,7 +68,7 @@ The `gomory_ilpp` function is used to solve integer linear programming problems 
 **Usage Example:**
 
 ```python
-from ORTipy import gomory_ilpp
+from ORTipy2 import gomory_ilpp
 
 # Objective function coefficients: Z = 3x + 2y
 objective_coefficients = [3, 2]
@@ -88,7 +88,7 @@ The `perturbation_method` function is used to solve linear programming problems 
 **Usage Example:**
 
 ```python
-from ORTipy import perturbation_method
+from ORTipy2 import perturbation_method
 
 # Objective function coefficients: Z = 3x + 2y
 c = np.array([3, 2])
