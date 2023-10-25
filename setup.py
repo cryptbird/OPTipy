@@ -8,6 +8,7 @@ setup(
         'numpy',
         'matplotlib',
         'pulp',
+        'scipy',
     ],
     author='twofoldtwins',
     author_email='twofoldtwinsinc@gmail.com',
