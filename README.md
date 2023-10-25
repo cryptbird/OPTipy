@@ -2,6 +2,21 @@
 
 The ORTipy - Operation Research Toolkit in Python Library is a collection of functions that allow you to solve and visualize linear programming problems. Linear programming is a mathematical optimization technique used to find the best outcome in a mathematical model with linear relationships. This library provides tools for solving linear programming problems using graphical methods, the simplex method, Gomory's cut method, and the perturbation method. Below, you'll find detailed explanations and usage examples for each function in the library.
 
+## Installation
+
+You can easily install ORTipy using `pip`. Open your terminal or command prompt and run the following command:
+
+```bash
+pip install ORTipy
+```
+
+This will download and install the latest version of ORTipy from the Python Package Index (PyPI). Make sure you have Python and pip installed on your system.
+
+Once installed, you can start using the ORTipy library to solve and visualize linear programming problems in Python.
+
+This installation section provides clear instructions for users on how to install your package using `pip`. It's a common and user-friendly way to distribute Python packages.
+
+
 ### `graphical_lpp`
 
 The `graphical_lpp` function allows you to solve a 2-variable linear programming problem graphically. It plots the feasible region and the optimal solution on a 2D graph. This method is suitable for problems with only two decision variables and a few constraints.
